@@ -1,0 +1,30 @@
+<b>Introduction</b>
+<br>
+Machine learning algorithms are largely used to predict, classify, or cluster complex data sets and find meaning from the data collected. Machine learning algorithms are ones that learn on their own. Once the algorithm is designed and implemented, it does not require human intervention to become better. Common applications of machine learning include: web search, spam filters, recommender systems, ad placement, credit scoring, fraud detection, stock trading, computer vision, and medicine. Google search for example learns from the searches that people conduct.
+Machine learning algorithms can be supervised or unsupervised. In supervised learning, a model is seeded using a trained dataset. In unsupervised learning, a model works on its own to discover the data. Supervised learning allows you to collect data or produce a data output from previous experience. Unsupervised machine learning finds all kinds of unknown patterns in the data.
+<br><br>
+<b>K-Means Cluster Analysis</b>
+<br>
+K-Means is an unsupervised learning technique. The goal of this algorithm is to determine the definition or the right answer by finding clusters of data for you. For example, in this case study, the K-Means algorithm was applied to the wine data set. The K-Means plot illustrates how three classes of wines (Class 1, 2, and 3) are divided by their distinct wine characteristics (e.g., alcohol, malic acid, ash, alkalinity, magnesium, phenols, flavanoids, color intensity, hue, etc.). These are the attributes that define the chemical composition of the wines analyzed. However, our K-Means plot actually reveals that some of the wines are actually misclassified. The three clusters should be fairly clean and distinct with no bleed over from one cluster to the next. This is not what the k-means plot shows. Using the data from our analysis, we would recommend to the vintner (winemaker) that a few of these wines be reclassified. See the K-Means tab.
+<br><br>
+<b>Naive Bayes Classifier</b>
+<br>
+The Naive Bayes is a supervised machine learning algorithm based on Bayes theorem that is used to solve classification problems by following a probabilistic approach. Bayes theorem is a statistical calculation that determines the probability of an event based on its association with another event. Naive Bayes is a very popular classification algorithm that is used to get the base accuracy of the dataset. The algorithm is based on the assumption that the predictor variables in the dataset are independent of each other. The wine dataset includes three distinct classes (types) of wine grown in the same region of Italy, but the wines come from three different cultivars. In the wine dataset, there are 178 different bottles of wine that are classified into three distinct classes (or types). This data set defines what wines are of Class 1, Class 2, and Class 3. Using the Naive Bayes algorithm, we can test the accuracy of this initial classification of the wines as determined by the vintner. What the table shows is the actual or original classification by the vintner compared with the predicted classification of the Naive Bayes algorithm. In almost every instance they agree. There are two cases where the original Class assigned differs from the predicted Class: [Actual 1 vs. Predicted 2; Actual 3 vs Predicted Class 3]. See Naive Bayes tab for a table that compares actual classification vs. the predicted classification. 
+<br><br>
+<b>Decision Tree</b>
+<br>
+A decision tree also known as a prediction tree is another method of classification. It uses a tree structure to specify sequences of decisions and consequences. The prediction is achieved by constructing a decision tree with test points and branches. At each test point, a decision is made to select a particular branch and traverse down the tree. At the leaves of the tree, a prediction is made. The Wine Classification Tree uses the chemical composition of the wine to classify the 178 sample bottles into one of three classes of wine (color-coded orange, gray, yellow). See the Decision Tree tab. For a selected bottle a wine, you would simply follow the decision tree based on its chemical compounds to learn if the wine belongs to class 1, 2, or 3.
+<br><br>
+<b>Random Forest</b>
+<br>
+Random Forests is another classification algorithm and like decision trees above is used for feature selection. The idea of feature selection is to identify the subset of data in your dataset that is best suited or tuned for modeling a particular problem or decision of interest. Random forests generalize decision trees with a technique called bagging (or bootstrap aggregating) to improve predictive performance. The bootstrap technique combines the predictions from several algorithms together to make a more accurate decision. See the Random Forest Tab to see the output of the algorithm on the wine dataset. A confusion matrix is the output from the algorithm that visualizes the results. 
+<br><br>
+<b>References:</b> (DS501 Data Science Course Textbooks)
+<br>
+1. ONeil, C. Schutt, R. Doing Data Science: Straight Talk from the Frontline, October 2013. OReilly.<br>
+2. EMC Education Services. Data Science and Big Data Analytics, 2015. John Wiley and Sons, Inc. <br>
+3. Webpage: A Comprehensive Guide To Naive Bayes In R. Accessed at this url: <a> href= “https://www.edureka.co/blog/naive-bayes-in-r/“</a> <br>
+4. Webpage: All About Naive Bayes. Accessed at this url: <a> href=  “https://towardsdatascience.com/all-about-naive-bayes-8e13cef044cf” </a><br>
+5. Webpage: Supervised vs. Unsupervised Learning. Accessed at this url: <a> href= “https://towardsdatascience.com/supervised-vs-unsupervised-learning-14f68e32ea8d” </a>
+<br>
+
